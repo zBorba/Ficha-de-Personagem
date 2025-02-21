@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Rye&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Merienda" , sans-serif;
+}
+
+body{
+    font-size: 20px;
+    background-color: #3848B3;
+}
+
+.topo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-topo{
+    background-color: #5C36B3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 900px;
+    height: 150px;
+}
+
+.conteiner-topo>div{
+    padding: 10px;
+
+}
+
+.conteiner-topo>div p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteiner-topo>div input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+
